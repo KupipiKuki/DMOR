@@ -1,0 +1,8 @@
+reset;
+model Example5.mod;
+data Example5.dat;
+option solver gurobi;
+solve;
+display totalCost;
+display y;
+display {i in I, j in J: y[i,j]==1};

@@ -1,0 +1,6 @@
+reset;
+model Example5.mod;
+data Example5.dat;
+option solver gurobi;
+solve;
+display y;
