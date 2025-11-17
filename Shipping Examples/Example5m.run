@@ -1,0 +1,7 @@
+reset;
+model Example5m.mod;
+data Example5.dat;
+option solver gurobi;
+solve;
+display totalCost;
+display y;
